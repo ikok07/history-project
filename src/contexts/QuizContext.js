@@ -3,7 +3,7 @@ import fileQuestions from "../data/questions.json"
 
 const QuizContext = createContext();
 
-const SECS_PER_QUESTION = 30;
+const SECS_PER_QUESTION = 90;
 
 const initialState = {
   questions: [],
